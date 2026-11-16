@@ -1,1 +1,16 @@
+```gitignore
+# Python & Virtual Environments
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Sensitive Device Credentials
+firmware/config.py
+*secrets*
+*.env
+
+# Raw Local Logs & Temporary Binaries
+*.bin
+*.log
+raw_captures/
